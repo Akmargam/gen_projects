@@ -1,0 +1,21 @@
+.animation {
+  background-color: rgb(70, 15, 2);
+  width: 150px;
+  height: 150px;
+  animation-name: hello;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hello{
+  0%{
+    transform: translateX(100px);
+  }
+  50%{
+    transform: translateX(100px);
+    background-color: aqua;
+  }
+  75%{
+    transform: translateX(200px);
+    background-color: bisque;
+  }

@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0 10px;
+}
+.sidebar p{
+  font-size: 20px;
+}
+.main h2{
+  color: white;
+  background-color: black;
+  margin: 5px 0;
+}
+
+.hello::after{
+
+  color: chartreuse;
+}
+
+table, th, td{
+  text-align:centre;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
